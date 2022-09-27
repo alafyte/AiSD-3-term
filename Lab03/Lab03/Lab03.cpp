@@ -7,7 +7,7 @@ int main()
 
     Graph graph;
 
-    graph.dijkstra('E');
+    graph.dijkstra('A');
 
     system("pause");
 
