@@ -23,13 +23,15 @@ namespace GraphAdjacencyMatrix
 		q.push(s);
 
 		int vis;
-		while (!q.empty()) {
+		while (!q.empty()) 
+		{
 			vis = q.front();
 
 			cout << vis << " ";
 			q.pop();
 
-			for (int i = 0; i < 10; i++) {
+			for (int i = 0; i < 10; i++) 
+			{
 				if (graphMatrix[vis - 1][i] == 1 && (!visited[i]))
 				{
 					q.push(i + 1);
