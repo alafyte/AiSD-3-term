@@ -23,11 +23,11 @@ private:
 		{INT_MAX, INT_MAX, 7, INT_MAX, 8, INT_MAX, 9, INT_MAX}
 	};
 
-public:
 	std::vector <Edge> edgeList = {
 	{1, 2, 2}, {1, 4, 8}, {7, 5, 4}, {1, 5, 2}, {2, 3, 3}, {2, 5, 5}, {2, 4, 10}, {3, 5, 12}, 
 	{3, 8, 7}, {4, 5, 14}, {4, 6, 3}, {4, 7, 1}, {5, 8, 8}, {6, 7, 6}, {7, 8, 9}, {5, 6, 11}
 	};
+public:
 	void Prims();
 	void Kruslals();
 };
