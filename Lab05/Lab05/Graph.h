@@ -29,6 +29,6 @@ private:
 	};
 public:
 	void Prims();
-	void Kruslals();
+	void Kruskals();
 };
 

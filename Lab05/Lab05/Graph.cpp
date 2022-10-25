@@ -41,7 +41,7 @@ void Graph::Prims()
     }
 }
 
-void Graph::Kruslals()
+void Graph::Kruskals()
 {
     int n = 8;
 
