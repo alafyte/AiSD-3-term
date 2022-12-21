@@ -11,14 +11,16 @@ void Graph::Prims()
     int currentEdge = 0;
     int x;
     int y;
-    while (currentEdge < 7) {
+    while (currentEdge < 7) 
+    {
         int min = INT_MAX;
         x = 0;
         y = 0;
 
         for (int i = 0; i < 8; i++) 
         {
-            if (visited[i]) {
+            if (visited[i]) 
+            {
                 for (int j = 0; j < 8; j++) 
                 {
                     if (!visited[j]) 
